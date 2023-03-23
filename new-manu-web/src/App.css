@@ -1,8 +1,4 @@
-.body-background{
-    overflow: hidden;
-    background-color: grey;
-}
-.body-background:before{
+.app-body:before{
     content: "";
     position: absolute;
     z-index: -1;
@@ -14,4 +10,7 @@
     opacity: .4;
     filter: blur(8px);
     -webkit-filter: blur(8px);
-}
+} 
+
+
+  
